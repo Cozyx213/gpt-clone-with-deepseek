@@ -15,20 +15,20 @@ cd your-repo
 
 2. Install and Start the Flask Backend
 
-cd backend  # Move into the Flask backend folder
-python -m venv venv  # Create a virtual environment
-source venv/bin/activate  # Activate virtual environment (Mac/Linux)
-venv\Scripts\activate  # Activate virtual environment (Windows)
-pip install -r requirements.txt  # Install dependencies
-python app.py  # Start Flask backend
+
+python -m venv venv   # Create a virtual environment
+source venv/bin/activate   # Activate virtual environment (Mac/Linux)
+venv\Scripts\activate   # Activate virtual environment (Windows)
+pip install -r requirements.txt   # Install dependencies
+python app.py   # Start Flask backend
 
 By default, Flask runs on http://localhost:5000/.
 
 3. Install and Start the Next.js Frontend
 
-cd frontend  # Move into the Next.js frontend folder
-npm install  # Install dependencies
-npm run dev  # Start Next.js frontend
+cd frontend   # Move into the Next.js frontend folder
+npm install   # Install dependencies
+npm run dev   # Start Next.js frontend
 
 By default, the frontend runs on http://localhost:3000/.
 
