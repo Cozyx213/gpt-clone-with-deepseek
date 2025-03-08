@@ -60,10 +60,13 @@ By default, the frontend runs on http://localhost:3000/.
 
 🚀 Future Enhancements
 
-🔹 Add a database to store chat history
-🔹 Deploy to Vercel (frontend) and Render (backend)
-🔹 Add copy-to-clipboard button for code snippets
-🔹 Improve UI with animations and loading indicators
+🔹Add a database to store chat history
+
+🔹Deploy to Vercel (frontend) and Render (backend)
+
+🔹Add copy-to-clipboard button for code snippets
+
+🔹Improve UI with animations and loading indicators
 🛠️ Contributing
 
 Feel free to fork this repo and submit pull requests for improvements!
