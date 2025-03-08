@@ -16,7 +16,8 @@ The app streams AI-generated responses in real-time and supports **syntax-highli
 
 ## 📦 Installation
 
-### **🔹 1. Clone the repository**
+### **
+🔹 1. Clone the repository**
 bash
 git clone https://github.com/your-username/your-repo.git
 cd your-repo
@@ -31,7 +32,8 @@ pip install -r requirements.txt  # Install dependencies
 python app.py  # Start Flask backend
 
 By default, Flask runs on http://localhost:5000/.
-🔹 3. Install and Start the Next.js Frontend
+
+🔹3. Install and Start the Next.js Frontend
 
 cd frontend  # Move into the Next.js frontend folder
 npm install  # Install dependencies
