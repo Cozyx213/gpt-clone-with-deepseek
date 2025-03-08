@@ -65,4 +65,7 @@ Code Highlighting: react-syntax-highlighter
 
 🚀 Future Enhancements
 
-🔹 Add a database to store chat history🔹 Deploy to Vercel (frontend) and Render (backend)🔹 Add copy-to-clipboard button for code snippets🔹 Improve UI with animations and loading indicators
+🔹 Add a database to store chat history
+🔹 Deploy to Vercel (frontend) and Render (backend)
+🔹 Add copy-to-clipboard button for code snippets
+🔹 Improve UI with animations and loading indicators
