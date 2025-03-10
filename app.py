@@ -18,7 +18,7 @@ def generate():
 
     prompt = data["prompt"]
     model = "deepseek-coder"
-    model2 = "deepseek-r1:8b"
+    model2 = "deepseek-r1:14b"
     payload = {
         "model": model,
         "prompt": prompt,

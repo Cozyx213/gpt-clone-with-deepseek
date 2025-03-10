@@ -8,11 +8,13 @@ export default function Home() {
   const [prompt, setPrompt] = useState("");
   const [response, setResponse] = useState("");
   const [loading, setLoading] = useState(false);
-
+  let num = 0;
+  num+=1;
   const handleGenerate = async () => {
     setResponse("");
     setLoading(true);
-    setPrompt("");
+    setPrompt(`${num}`);
+    num+=1;
     const response = await fetch("http://localhost:5000/generate", {
       method: "POST",
       headers: {
