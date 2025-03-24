@@ -24,7 +24,8 @@ def generate():
         "prompt": prompt,
         "stream": True  # Enable streaming in Ollama
     }
-
+    x = 4
+    y = x+54;
     response = requests.post(OLLAMA_URL, json=payload, stream=True)
 
     def stream():
